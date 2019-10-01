@@ -1,6 +1,6 @@
-import sqlite3
+import mysqlite3
 
-conn = sqlite3.connect("mrsoft.db")
+conn = mysqlite3.connect("mrsoft.db")
 
 cursor = conn.cursor()
 

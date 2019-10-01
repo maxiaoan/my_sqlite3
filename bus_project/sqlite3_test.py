@@ -1,8 +1,8 @@
-import sqlite3
+import mysqlite3
 import openpyxl
 import  time
 
-lists=sqlite3.connect('bus.db')
+lists=mysqlite3.connect('bus.db')
 c=lists.cursor()
 
 # SQL = '''
