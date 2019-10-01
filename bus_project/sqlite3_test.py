@@ -1,8 +1,9 @@
-import mysqlite3
-import openpyxl
+import sqlite3
+#import openpyxl
 import  time
+import  datetime
 
-lists=mysqlite3.connect('bus.db')
+lists=sqlite3.connect('bus.db')
 c=lists.cursor()
 
 # SQL = '''
@@ -50,13 +51,18 @@ c=lists.cursor()
 #     c.execute(data_truck, cargo)
 # lists.commit()
 
-
-c.execute("select 中石化香港 from bus_table")
+start =input("请输入起点：")
+end = input("请输入终点：")
+print(start,end)
+c.execute("select julianday(%s)*86400, julianday(%s)*86400 from bus_table"% (start,end))
 
 x = c.fetchall()
-x = x[2:]
+print(x)
 
+print("%s" %start, "\t\t", "%s" % end)
+print("发车时间\t\t到站时间：","\t车程时间")
 for i in x:
-    print(i[0])
+    print(i[0].strftime("%H:%M"),"\t\t",i[1].strftime("%H:%M"),end="\t")
+    print((int(i[0]) - int(i[1]))//60)
     
 lists.close()

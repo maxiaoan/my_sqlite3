@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82b5e900-0c86-4332-8bd0-6cc9d98b852a" name="Default Changelist" comment="" />
+    <list default="true" id="82b5e900-0c86-4332-8bd0-6cc9d98b852a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bus_project/sqlite3_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/bus_project/sqlite3_test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,28 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mysql5">
-    <configuration name="mysql1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysql1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.sqlite3_test">
     <configuration name="mysql2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,22 +178,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sqlite3_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bus_project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bus_project/sqlite3_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.sqlite1" />
       <item itemvalue="Python.sqlite3" />
-      <item itemvalue="Python.mysql1" />
       <item itemvalue="Python.mysql2" />
       <item itemvalue="Python.mysql3" />
       <item itemvalue="Python.mysql4" />
       <item itemvalue="Python.mysql5" />
+      <item itemvalue="Python.sqlite3_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sqlite3_test" />
         <item itemvalue="Python.mysql5" />
         <item itemvalue="Python.mysql4" />
         <item itemvalue="Python.mysql3" />
         <item itemvalue="Python.mysql2" />
-        <item itemvalue="Python.mysql1" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569938778400</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="modified codes">
+      <created>1569938884832</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569938884832</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +283,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add mysql4.py mysql5.py" />
     <MESSAGE value="modified file names" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified file names" />
+    <MESSAGE value="modified codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified codes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mysql3.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
