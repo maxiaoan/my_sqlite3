@@ -44,6 +44,7 @@ def del_and_update():
     cursor.execute("DELETE FROM stuffToPlot  WHERE value = 99")
     conn.commit()
 
+
     print("#"*50)
     cursor.execute("SELECT * FROM stuffToPlot")
     [print(row) for row in cursor.fetchall()]
