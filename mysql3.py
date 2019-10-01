@@ -25,7 +25,9 @@ def dynamic_data_entry():
     conn.commit()
 
 def read_from_db():
-    cursor.execute("SELECT * FROM stuffToPlot")
+    #cursor.execute("SELECT * FROM stuffToPlot")
+    #cursor.execute("SELECT * FROM stuffToPlot where value = 3")
+    cursor.execute("SELECT * FROM stuffToPlot where value between 2 and 5")
     data = cursor.fetchall()
     #print(data)
     for row in data:
