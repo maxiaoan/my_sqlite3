@@ -3,13 +3,11 @@ import  time
 import  datetime
 import  random
 
+import  matplotlib.pyplot as plt
 from matplotlib import style
-import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-from dateutil import parser
-
-
 style.use('fivethirtyeight')
+
 conn = sqlite3.connect("tutorial.db")
 
 cursor = conn.cursor()
@@ -31,28 +29,28 @@ def dynamic_data_entry():
     cursor.execute("INSERT INTO stuffToPlot(unix, datestamp, keyword, value) VALUES (?, ?, ?, ?)", (unix, date, keyword, value))
     conn.commit()
 
-# for i in range(10):
-#     dynamic_data_entry()
-#     time.sleep(1)
-
 def read_from_db():
     cursor.execute("SELECT * FROM stuffToPlot where value  between 2 and 4")
     data = cursor.fetchall()
-    #print(data)
     for row in data:
         print(row[0],row[1], row[2],row[3])
 
 
 def graph_data():
-    cursor.execute("SELECT datestamp, value from stuffToPlot")
+    cursor.execute("SELECT unix, value from stuffToPlot")
     data = cursor.fetchall()
     dates = []
     values = []
 
     for row in data:
-        dates.append(para)
+        #print(row[0])
+        #print(datetime.datetime.fromtimestamp(row[0]))
+        dates.append(datetime.datetime.fromtimestamp(row[0]))
+        values.append(row[1])
+    print(values)
+    plt.plot_date(dates, values, "-")
+    plt.show()
 
-read_from_db()
-
+graph_data()
 cursor.close()
 conn.close()

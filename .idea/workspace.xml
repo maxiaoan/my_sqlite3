@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b5e900-0c86-4332-8bd0-6cc9d98b852a" name="Default Changelist" comment="modified file names">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql3.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysql3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql4.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysql4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql5.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysql5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorial.db" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mysql3">
+  <component name="RunManager" selected="Python.mysql5">
     <configuration name="mysql1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,9 +104,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysql3.py" />
@@ -140,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mysqlite1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mysql5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,7 +151,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysqlite1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysql5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,13 +202,22 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.sqlite1" />
+      <item itemvalue="Python.sqlite3" />
+      <item itemvalue="Python.mysql1" />
+      <item itemvalue="Python.mysql2" />
+      <item itemvalue="Python.mysql3" />
+      <item itemvalue="Python.mysql4" />
+      <item itemvalue="Python.mysql5" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mysql3" />
+        <item itemvalue="Python.mysql5" />
         <item itemvalue="Python.mysql4" />
+        <item itemvalue="Python.mysql3" />
         <item itemvalue="Python.mysql2" />
         <item itemvalue="Python.mysql1" />
-        <item itemvalue="Python.mysqlite1" />
       </list>
     </recent_temporary>
   </component>
